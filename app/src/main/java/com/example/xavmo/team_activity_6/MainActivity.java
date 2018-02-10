@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
      *
      */
     public void something() {
-        ;
     }
 
 
@@ -49,15 +48,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.createBtn :
-                ;// Creates a new file in storage "SD CARD"
+                // Creates a new file in storage "SD CARD"
                 break ;
             case R.id.loadBtn :
-                ; // Load the file in memory "SD CARD" into the app
+                // Load the file in memory "SD CARD" into the app
                 break;
             case R.id.clearBtn :
-                ; // Clear data from memory
+                // Clear data from memory
                 break;
         }
-    };
+    }
 
 }
